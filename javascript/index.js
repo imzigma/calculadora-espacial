@@ -37,7 +37,7 @@ function calcularPeso (usuario, planeta, nombreplaneta) {
         const pesoFinal = usuario * planeta / g_tierra;
         if (pesoFinal) {
             resultplane_div.innerHTML="Has escogido a "+nombreplaneta;
-            result_div.innerHTML= "Tu peso en sería de: "+pesoFinal.toFixed()+"Kgs";
+            result_div.innerHTML= "Tu peso sería de: "+pesoFinal.toFixed()+"Kgs";
             descriptionGra.innerHTML="Esto se debe a que se multiplica tu peso ("+usuario+"Kgs) por la gravedad de "+nombreplaneta+" ("+planeta+") y a su vez se divide entre la gravedad de la Tierra ("+g_tierra+")";
         } else {
             resultplane_div.innerHTML="No has introducido un peso valido";
