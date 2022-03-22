@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Calculadora espacial">
+    <meta name="keywords" content="calculadora, espacial, calculadora-espacial, calculadoraespacial">
+    <meta name="author" content="imzigma">
+    <link rel="shortcut icon" href="./assets/icon-space.svg" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./styles/styles.css">
+    <title>Calculadora Espacial</title>
+</head>
+<body>
+    <header>
+        <h1>Calculadora Espacial</h1>
+    </header>
+    <main>
+        <div class="result">
+            <p>¡Escoge un planeta!</p>
+        </div>
+        <div class="opciones">
+            <div class="choise" id="mercury">
+                <img src="./assets/1mercury.svg" alt="Mercurio" title="Mercurio"">
+            </div>
+            <div class="choise" id="vens">
+                <img src="./assets/2venus.svg" alt="Venus" title="Venus">
+            </div>
+            <div class="choise" id="mars">
+                <img src="./assets/4mars.svg" alt="Marte" title="Marte">
+            </div>
+            <div class="choise" id="jupitr">
+                <img src="./assets/5jupiter.svg" alt="Júpiter" title="Jupiter">
+            </div>
+            <div class="choise" id="saturn">
+                <img src="./assets/6saturn.svg" alt="Saturno" title="Saturno">
+            </div>
+            <div class="choise" id="uranus">
+                <img src="./assets/7uranus.svg" alt="Urano" title="Urano">
+            </div>
+            <div class="choise" id="neptune">
+                <img src="./assets/8neptune.svg" alt="Neptuno" title="Neptuno">
+            </div>
+        </div>
+    </main>
+    <footer>
+
+        <div class="resultPeso">
+            <h2></h2>
+        </div>
+
+        <div class="descriptionGravity">
+            <p></p>
+        </div>
+        <div class="container_boton">
+            <input class="boton" type="button" value="Recargar Calculadora" onclick="location.reload()">
+        </div>
+
+    </footer>
+    <script src="./javascript/index.js"></script>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+</body>
+</html>
